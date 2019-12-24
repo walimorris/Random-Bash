@@ -19,11 +19,11 @@ fi
 echo "How old are you? "
 read -r age 
 
-if [ $age -lt 10 ]; then
+if [ $age -lt 20 ]; then
     echo "you're a baby!"
 fi
 
-while [ $age -lt 22 ]; do 
+while [ $age -lt 20 ]; do 
     echo "Age is $age"
     let age=age+1 
     echo "you're now: $age"
