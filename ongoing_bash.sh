@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #This script is just practice. I opened up a fresh file  and typed a way. 
-#There's no order or meaning. 
+#There's no order or meaning. To practice bash scripting, I plan to open 
+#this file atleast once a day and type...nothing of meaning, really. 
 #By: Wali Morris
 
 clear 
