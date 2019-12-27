@@ -64,7 +64,6 @@ if [ "$answer" = "Y" ] || [ "$answer" = "y" ]; then
     else
         rm -r homedir_monitor.txt
 fi
-
 cd --
 home=$(pwd)
 touch Hello_world.txt
@@ -72,7 +71,11 @@ echo "Hello_world" > Hello_world.txt
 ln -s "$home/Hello_world.txt" Hello
 cat Hello
 echo "Wow, did we just create a symbolic link from our home directory?"
-
+echo "Watch as this file grows"
+f=Hello_world.txt
+echo "BEGIN:">>$f
+for i in 1 2 3 4 5; do     echo "Hello World $i">>$f; done
+cat $f
 echo -n "enter name: " ; read name
 echo "$name"
 echo "Goodbye, $name"
