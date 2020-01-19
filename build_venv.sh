@@ -3,7 +3,9 @@
 # A script to begin a Python Virtual Environment on Ubuntu 18.04
 # If need be, install python3-venv on machine. If this step is 
 # skipped it'll be assumed all dependencies are up-to-date. 
-# requests is installed upon starting your virtual enviroment.
+# requests is installed upon starting your virtual enviroment
+# utilizing pip3. If you use anaconda or pip, you should change 
+# this in the source code found on line 40 of this scrpt. 
 # NOTE: This script should be run by source: . ./build_venv.sh
 # By: Wali Morris 
 
