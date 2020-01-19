@@ -36,7 +36,7 @@ if [ "$begin" = "y" ] || [ "$begin" = "Y" ]; then
     source $project_name-env/bin/activate 
     pip3 install requests
     clear
-    printf "You're all set. Enviroment in activated!\n"
+    printf "You're all set. Enviroment is activated!\n"
     else
         printf "All set!\n" 
 fi
